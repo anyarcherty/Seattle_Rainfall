@@ -16,8 +16,8 @@
 
 | Method             | Equation      | 
 | ----------------   |:-------------:| 
-| Weibull            | <img src="https://latex.codecogs.com/svg.latex?\Large&space;p=\frac{m\pm\n+1} title="\Large p={x\pm\n+1" />" |
-| Sevruk and Geiger  | centered      |
+| Weibull            | <img src="https://latex.codecogs.com/svg.latex?\Large&space;p=\frac{mn+1} title="\Large p={x\pm\n+1" />" |
+| Sevruk and Geiger  | $ \sum_{\forall i}{x_i^{2}} $      |
 | California         | are neat      | 
 | Hazen              |                 |
 The return period build from probability of exceedance, it demonstrated the recurrence frequency for certain event. It is usually used for risk analysis to predict the hazard event.
