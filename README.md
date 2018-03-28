@@ -16,13 +16,14 @@
 
 | Method             | Equation      | 
 | ----------------   |:-------------:| 
-| Weibull            |     ![](https://latex.codecogs.com/gif.latex?p%3D%5Cfrac%7Bm%7D%7Bn&plus;1%7D )           |
-| Sevruk and Geiger  | $ \sum_{\forall i}{x_i^{2}} $      |
-| California         | \frac{\sigma}{\mu}     | 
-| Hazen              |      \frac{\sigma}{\mu}           |
-The return period build from probability of exceedance, it demonstrated the recurrence frequency for certain event. It is usually used for risk analysis to predict the hazard event.
+| Weibull            | ![](https://latex.codecogs.com/gif.latex?p%3D%5Cfrac%7Bm%7D%7Bn&plus;1%7D )   |
+| Sevruk and Geiger  | ![](https://latex.codecogs.com/gif.latex?p%3D%5Cfrac%7Bm-%5Cfrac%7B3%7D%7B8%7D%7D%7Bn&plus;%5Cfrac%7B1%7D%7B4%7D%7D)    |
+| California         | ![](https://latex.codecogs.com/gif.latex?p%3D%5Cfrac%7Bm%7D%7Bn%7D)    | 
+| Hazen              | ![](https://latex.codecogs.com/gif.latex?p%3D%5Cfrac%7Bm-0.5%7D%7Bn%7D)         |
 
-This project will use probability of exceedance to display the probability for each maximum precipitation in selected periods and use Weibull method to calculate the probability for each rainfall events. In addition, this project will construct the return period for Seattle.
+   The return period build from probability of exceedance, it demonstrated the recurrence frequency for certain event. It is usually used for risk analysis to predict the hazard event.
+
+   This project will use probability of exceedance to display the probability for each maximum precipitation in selected periods and use Weibull method to calculate the probability for each rainfall events. In addition, this project will construct the return period for Seattle.
 
 #### 1.3 Model Selection
 
