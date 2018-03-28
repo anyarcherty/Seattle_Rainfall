@@ -4,7 +4,8 @@
 
 1.1 Data Extraction
 
-   The Seattle Rainfall dataset is from kaggle: https://www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017
+   The Seattle Rainfall dataset is from kaggle: https://www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017.
+   
    It include daily data of max temperture, min temperture and rainfall from 1948-2017.
     
 1.2 Parameter Selection
@@ -13,11 +14,12 @@
 
    The probability of exceedance express the chance for a specified value being exceeded in a certain cycle. The equation for probability of exceedance, such as California, Weibull, Sevruk and Geiger are listed in the Table.
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Method             | Equation      | 
+| ----------------   |:-------------:| 
+| Weibull            | <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> | 
+| Sevruk and Geiger  | centered      | 
+| California         | are neat      | 
+| Hazen              |          
 
 The return period build from probability of exceedance, it demonstrated the recurrence frequency for certain event. It is usually used for risk analysis to predict the hazard event.
 
