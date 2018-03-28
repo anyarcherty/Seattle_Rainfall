@@ -1,6 +1,6 @@
 # Seattle_Rainfall
 
-#### This project aim to connect the Environmental Enginnering backgroud with Python Language.
+#### The project aims to connect the environmental engineering background with the Python language.
 
 #### 1.1 Data Extraction
 
