@@ -2,13 +2,13 @@
 
 #### This project aim to connect the Environmental Enginnering backgroud with Python Language.
 
-1.1 Data Extraction
+# 1.1 Data Extraction
 
    The Seattle Rainfall dataset is from kaggle: https://www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017.
    
    It include daily data of max temperture, min temperture and rainfall from 1948-2017.
     
-1.2 Parameter Selection
+# 1.2 Parameter Selection
 
    The probability is a kind of method to determine the possibility of an event occurring. A higher probability means that the event will happen more frequency.
 
@@ -24,6 +24,6 @@ The return period build from probability of exceedance, it demonstrated the recu
 
 This project will use probability of exceedance to display the probability for each maximum precipitation in selected periods and use Weibull method to calculate the probability for each rainfall events. In addition, this project will construct the return period for Seattle.
 
-1.3 Model Selection
+# 1.3 Model Selection
 
 The project aims to build three Hydrology model and select the best model with Min Mean Square Error.
