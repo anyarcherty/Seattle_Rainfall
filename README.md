@@ -16,11 +16,10 @@
 
 | Method             | Equation      | 
 | ----------------   |:-------------:| 
-| Weibull            | <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> | 
-| Sevruk and Geiger  | centered      | 
+| Weibull            | <img src="https://latex.codecogs.com/svg.latex?\Large&space;p=\frac{m\pm\n+1}" |
+| Sevruk and Geiger  | centered      |
 | California         | are neat      | 
-| Hazen              |          
-
+| Hazen              |                 |
 The return period build from probability of exceedance, it demonstrated the recurrence frequency for certain event. It is usually used for risk analysis to predict the hazard event.
 
 This project will use probability of exceedance to display the probability for each maximum precipitation in selected periods and use Weibull method to calculate the probability for each rainfall events. In addition, this project will construct the return period for Seattle.
