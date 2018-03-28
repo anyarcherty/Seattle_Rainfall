@@ -30,6 +30,7 @@
 The project aims to build three Hydrology models and select the best model with Mean Square Error. Normal Distribution, Gumbel Distribution and Log Pearson Type III Distribution will be chosen in this project to build three models. Gumbel distribution methodology was selected to perform the flood probability analysis. Log Pearson Type III is statistical technique for fitting frequency distribution data to predict the design flood for a river at different site.
 
 1. Normal Distribution
+
 ![](https://latex.codecogs.com/gif.latex?prep%20%3D%20avg%28prep%29%20&plus;%20z%5Ccdot%20%5Csigma_%7Bp%7D)
 
 ![](https://latex.codecogs.com/gif.latex?z%20%3D%20%5Cfrac%7Bx-avg%28prep%29%7D%7B%5Csigma%20_%7Bp%7D%7D)
@@ -46,3 +47,7 @@ The project aims to build three Hydrology models and select the best model with 
 
 ![](https://latex.codecogs.com/gif.latex?K%7B_%7BIII%7D%7D%20%3D%5Cfrac%7B2%7D%7B%5Cgamma%7B_%7Blog%28p%29%7D%7D%20%7D%5Ccdot%20%28%28%28z-%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20%29%5Ccdot%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20&plus;1%20%29%5E%7B%5E%7B3%7D%7D-1%29)
 
+
+#### Colusion
+In this project, Log Pearson Type III model works well to find annual maximum rainfall and build IDF curve in Seattle. After this project, we could use the model to predict the rainfall intensity in NYC. Therefore, we could conclude whether the rainfall intensity for a given period is heavy enough to cause damage.
+For future research, my suggestion is to obtain enough precipitation data at different rainfall stations near Seattle and try to build precipitation intensity network in New York State. Also, I suggest building the models based on the different data analysis models. To sum all, all these suggestions are a way for improving the result to IDF curve.
