@@ -49,8 +49,7 @@ The project aims to build three Hydrology models and select the best model with 
 
 #### 1.4 Result 
      
-  Result should be check the code in 
-
+  Result is shown in the code in https://github.com/anyarcherty/Seattle_Rainfall/blob/master/Seattle%20Weather.ipynb
 
 #### 1.5 Conclusion
    In this project, Log Pearson Type III model works well to find annual maximum rainfall in Seattle. For future research, my suggestion is to obtain enough precipitation data at different rainfall stations near Seattle and try to build precipitation intensity network in Seattle. Also, I suggest building the models based on the different data analysis models.
