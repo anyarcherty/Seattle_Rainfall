@@ -31,21 +31,21 @@ The project aims to build three Hydrology models and select the best model with 
 
 1. Normal Distribution
 
-         ![](https://latex.codecogs.com/gif.latex?prep%20%3D%20avg%28prep%29%20&plus;%20z%5Ccdot%20%5Csigma_%7Bp%7D)
+      ![](https://latex.codecogs.com/gif.latex?prep%20%3D%20avg%28prep%29%20&plus;%20z%5Ccdot%20%5Csigma_%7Bp%7D)
 
-         ![](https://latex.codecogs.com/gif.latex?z%20%3D%20%5Cfrac%7Bx-avg%28prep%29%7D%7B%5Csigma%20_%7Bp%7D%7D)
+      ![](https://latex.codecogs.com/gif.latex?z%20%3D%20%5Cfrac%7Bx-avg%28prep%29%7D%7B%5Csigma%20_%7Bp%7D%7D)
 
 2. Gumbel Distribution
 
-         ![](https://latex.codecogs.com/gif.latex?prep%20%3Davg%28prep%29&plus;K%7B_%7BEV%7D%7D%5Ccdot%20%5Csigma%7B_p%7D)
+      ![](https://latex.codecogs.com/gif.latex?prep%20%3Davg%28prep%29&plus;K%7B_%7BEV%7D%7D%5Ccdot%20%5Csigma%7B_p%7D)
 
-         ![](https://latex.codecogs.com/gif.latex?K%7B_%7BEV%7D%7D%20%3D-%5Cfrac%7B%5Csqrt%7B6%7D%7D%7B%5Cpi%20%7D%5Ccdot%20%280.5572&plus;ln%28ln%5Cfrac%7BT_%7By%7D%7D%7BT_%7By%7D-1%7D%29%29%29)
+      ![](https://latex.codecogs.com/gif.latex?K%7B_%7BEV%7D%7D%20%3D-%5Cfrac%7B%5Csqrt%7B6%7D%7D%7B%5Cpi%20%7D%5Ccdot%20%280.5572&plus;ln%28ln%5Cfrac%7BT_%7By%7D%7D%7BT_%7By%7D-1%7D%29%29%29)
 
 3. Log Pearson Type III Distribution
 
-         ![](https://latex.codecogs.com/gif.latex?log%28prep%29%20%3Dlog%28avg%28prep%29%29&plus;K%7B_%7BIII%7D%7D%5Ccdot%20%5Csigma%7B_%7Blog%28p%29%7D%7D)
+      ![](https://latex.codecogs.com/gif.latex?log%28prep%29%20%3Dlog%28avg%28prep%29%29&plus;K%7B_%7BIII%7D%7D%5Ccdot%20%5Csigma%7B_%7Blog%28p%29%7D%7D)
 
-         ![](https://latex.codecogs.com/gif.latex?K%7B_%7BIII%7D%7D%20%3D%5Cfrac%7B2%7D%7B%5Cgamma%7B_%7Blog%28p%29%7D%7D%20%7D%5Ccdot%20%28%28%28z-%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20%29%5Ccdot%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20&plus;1%20%29%5E%7B%5E%7B3%7D%7D-1%29)
+      ![](https://latex.codecogs.com/gif.latex?K%7B_%7BIII%7D%7D%20%3D%5Cfrac%7B2%7D%7B%5Cgamma%7B_%7Blog%28p%29%7D%7D%20%7D%5Ccdot%20%28%28%28z-%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20%29%5Ccdot%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20&plus;1%20%29%5E%7B%5E%7B3%7D%7D-1%29)
 
 
 #### Colusion
