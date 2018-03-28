@@ -16,7 +16,7 @@
 
 | Method             | Equation      | 
 | ----------------   |:-------------:| 
-| Weibull            | <img src="https://latex.codecogs.com/svg.latex?\Large&space;p=\frac{m\pm\n+1}" |
+| Weibull            | <img src="https://latex.codecogs.com/svg.latex?\Large&space;p=\frac{m\pm\n+1} title="\Large p={x\pm\n+1" />" |
 | Sevruk and Geiger  | centered      |
 | California         | are neat      | 
 | Hazen              |                 |
