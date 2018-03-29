@@ -4,9 +4,11 @@
 
 #### 1.1 Data Extraction
 
-   The Seattle Rainfall dataset is from kaggle: https://www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017.
+   The Seattle Rainfall dataset is from kaggle:
    
-   It include daily data of max temperture, min temperture and rainfall from 1948-2017.
+   https://www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017.
+   
+   It includes daily data about max temperature, min temperature and rainfall intensity from 1948-2017.
     
 #### 1.2 Parameter Selection
 
@@ -21,13 +23,15 @@
 | California         | ![](https://latex.codecogs.com/gif.latex?p%3D%5Cfrac%7Bm%7D%7Bn%7D)    | 
 | Hazen              | ![](https://latex.codecogs.com/gif.latex?p%3D%5Cfrac%7Bm-0.5%7D%7Bn%7D)         |
 
-   The return period build from probability of exceedance, it demonstrated the recurrence frequency for certain event. It is usually used for risk analysis to predict the hazard event.
+   A return period, also known as a recurrence interval (sometimes repeat interval) is an estimate of the likelihood of an event, such as an earthquake, flood, landslide, or a river discharge flow to occur. It build from probability of exceedance and demonstrated the recurrence frequency for certain event. What' more, the return period is usually used for risk analysis to predict the hazard event.
 
    This project will use probability of exceedance to display the probability for each maximum precipitation in selected periods and use Weibull method to calculate the probability for each rainfall events. In addition, this project will construct the return period for Seattle.
 
 #### 1.3 Model Selection
 
-The project aims to build three Hydrology models and select the best model with Mean Square Error. Normal Distribution, Gumbel Distribution and Log Pearson Type III Distribution will be chosen in this project to build three models. Gumbel distribution methodology was selected to perform the flood probability analysis. Log Pearson Type III is statistical technique for fitting frequency distribution data to predict the design flood for a river at different site.
+   The project aims to build three Hydrology models and select the best model by Mean Square Error. 
+   
+   Normal Distribution, Gumbel Distribution and Log Pearson Type III Distribution will be chosen in this project to build  model. Gumbel distribution methodology was selected to perform the flood probability analysis. Log Pearson Type III is statistical technique for fitting frequency distribution data to predict the design flood for a river at different site.
 
 1. Normal Distribution
 
