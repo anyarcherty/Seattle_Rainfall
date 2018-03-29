@@ -1,6 +1,8 @@
 # Seattle_Rainfall
 
-#### The project aims to connect the environmental engineering background with the Python language.
+#### Purpose
+
+   This project aims to use Python programming language to build three Hydrology models and to use Mean Square Error to find the best model. 
 
 #### 1.1 Data Extraction
 
@@ -28,10 +30,14 @@
    This project will use probability of exceedance to display the probability for each maximum precipitation in selected periods and use Weibull method to calculate the probability for each rainfall events. In addition, this project will construct the return period for Seattle.
 
 #### 1.3 Model Selection
-
-   The project aims to build three Hydrology models and select the best model by Mean Square Error. 
+    
+   Normal Distribution, Gumbel Distribution and Log Pearson Type III Distribution will be chosen in this project to build  Hydrology model. 
    
-   Normal Distribution, Gumbel Distribution and Log Pearson Type III Distribution will be chosen in this project to build  model. Gumbel distribution methodology was selected to perform the flood probability analysis. Log Pearson Type III is statistical technique for fitting frequency distribution data to predict the design flood for a river at different site.
+   Normal distribution is very well to established with a good sample size and sample mean of population will follow normal distribution.
+   
+   Gumbel distribution is selected to perform the flood probability analysis.
+   
+   Log Pearson Type III is statistical technique for fitting frequency distribution data to predict the design flood for a river at different site.
 
 1. Normal Distribution
 
@@ -53,9 +59,10 @@
 
 #### 1.4 Model Comparison
      
-  I use Python programming language to build three model and compare each model in the code. The result of Model Comparison is shown in the code in:
+  In this project, Python programming language is using to build three models and also using to compare each model. The result of Model Comparison is shown in the code in:
   
   https://github.com/anyarcherty/Seattle_Rainfall/blob/master/Seattle%20Weather.ipynb
+  
 
 #### 1.5 Conclusion
    In this project, Log Pearson Type III model works well to find annual maximum rainfall in Seattle. For future research, my suggestion is to obtain enough precipitation data at different rainfall stations near Seattle and try to build precipitation intensity network in Seattle. Also, I suggest building the models based on the different data analysis models.
