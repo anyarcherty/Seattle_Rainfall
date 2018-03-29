@@ -51,9 +51,11 @@
 
       ![](https://latex.codecogs.com/gif.latex?K%7B_%7BIII%7D%7D%20%3D%5Cfrac%7B2%7D%7B%5Cgamma%7B_%7Blog%28p%29%7D%7D%20%7D%5Ccdot%20%28%28%28z-%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20%29%5Ccdot%20%5Cfrac%7B%5Cgamma%20_%7Blog%28p%29%7D%7D%7B6%7D%20&plus;1%20%29%5E%7B%5E%7B3%7D%7D-1%29)
 
-#### 1.4 Result 
+#### 1.4 Model Comparison
      
-  Result is shown in the code in https://github.com/anyarcherty/Seattle_Rainfall/blob/master/Seattle%20Weather.ipynb
+  I use Python programming language to build three model and compare each model in the code. The result of Model Comparison is shown in the code in:
+  
+  https://github.com/anyarcherty/Seattle_Rainfall/blob/master/Seattle%20Weather.ipynb
 
 #### 1.5 Conclusion
    In this project, Log Pearson Type III model works well to find annual maximum rainfall in Seattle. For future research, my suggestion is to obtain enough precipitation data at different rainfall stations near Seattle and try to build precipitation intensity network in Seattle. Also, I suggest building the models based on the different data analysis models.
